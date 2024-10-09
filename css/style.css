@@ -6,22 +6,26 @@ background-repeat: no-repeat;
 }
 table
 {
-    position: center;
     margin: auto;
     width: 70%;
 }
+
 
 
 #titre
 {
     background-color: black;
     color: white;
+    font-size: xx-large;
+    height: 50px;
 }
 #table
 {
     background-color: white;
+    border-width: 0px;
 }
-.photoActeur {
+.photoActeur 
+{
     width: 80px;
     height: 80px;
     margin: 10px;
@@ -29,12 +33,61 @@ table
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-   }
-#Chris_Hemsworth
-{
-
 }
 #Chris_Evans
 {
-   background-image: url('images/Chris_Evans.png')
+   background-image: url('../images/Chris_Evans.png');
+}
+#Chris_Hemsworth
+{
+    background-image: url('../images/Chris_Hemsworth.png');
+}
+#Jeremy_Renner
+{
+    background-image: url('../images/Jeremy_Renner.png');
+}
+#Mark_Ruffalo
+{
+    background-image: url('../images/Mark_Ruffalo.png');
+}
+#Robert_Downey_JR
+{
+    background-image: url('../images/Robert_Downey_Jr..png');
+}
+#Scarlett_Johansson
+{
+    background-image: url('../images/Scarlett_Johansson.png');
+}
+#Tom_Hiddleston
+{
+    background-image: url('../images/Tom_Hiddleston.png');
+}
+#distribution
+{
+background-color: red;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+.personnages
+{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.afficheFilm
+{
+    width: 100%;
+}
+.nomActeurs
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.petitTexte
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
